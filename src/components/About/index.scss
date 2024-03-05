@@ -1,0 +1,23 @@
+.about-page{
+    .text-container{
+        position: absolute;
+        left: 15%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+    }
+    .image-container{
+        position: absolute;
+        left: 60%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+    }
+
+    img{
+        height: 500px;
+        width: 500px;
+        border-radius: 30%;
+    }
+
+}

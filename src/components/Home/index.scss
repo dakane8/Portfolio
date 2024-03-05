@@ -1,0 +1,19 @@
+.home-page{
+    .text-container{
+        display: flex;
+        justify-content: center;
+        max-height: 50%;
+        max-width: 50%;
+    }
+    .image-container{
+        display: flex;
+        justify-content: center;
+        max-height: 50%;
+        max-width: 50%;
+    }
+
+    img{
+        border-radius: 50%;
+    }
+
+}
