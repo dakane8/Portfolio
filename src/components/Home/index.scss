@@ -1,15 +1,13 @@
 .home-page{
-    .text-container{
-        display: flex;
-        justify-content: center;
-        max-height: 50%;
-        max-width: 50%;
-    }
     .image-container{
+        position:fixed;
+        left: 60%;
+        top: 30%;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         max-height: 50%;
         max-width: 50%;
+        overflow: visible;
     }
 
     img{

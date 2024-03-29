@@ -1,22 +1,16 @@
 .about-page{
-    .text-container{
-        position: absolute;
-        left: 15%;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 40%;
-    }
     .image-container{
-        position: absolute;
+        position:fixed;
         left: 60%;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 40%;
+        top: 20%;
+        display: flex;
+        justify-content: flex-end;
+        height: 65%;
+        max-width: 65%;
+        overflow: visible;
     }
 
     img{
-        height: 500px;
-        width: 500px;
         border-radius: 30%;
     }
 

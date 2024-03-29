@@ -92,7 +92,7 @@ const Contact = () => {
             </form>
           </div>
             </div>
-            <div className="image-container">
+            <div className="cube-container">
                 <div className='skillcube'>
                     <div className="face1">
                         <FontAwesomeIcon icon={faPython} color="#646464" />
