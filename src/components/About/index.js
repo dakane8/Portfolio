@@ -30,7 +30,7 @@ const About = () => {
             </p>
             </div>
         <div className="image-container">
-            <img src={mountainpic}/>
+            <img src={mountainpic} alt="mountain-picure"/>
         </div>
         </div>
         <Loader type='pacman'/>

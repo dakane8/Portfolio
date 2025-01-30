@@ -5,18 +5,10 @@ import emailjs from '@emailjs/browser'
 import {
     faPython,
     faCss3,
-    faGitAlt,
     faHtml5,
     faJava,
-    faRProject,
     faReact,
     faJs,
-    faLinode,
-    faDocker,
-    faAws,
-    faLinux,
-    faWindows,
-    faApple,
   } from '@fortawesome/free-brands-svg-icons'
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 

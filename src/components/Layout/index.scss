@@ -149,41 +149,102 @@
     }
   }
   
-  @media screen and (max-width: 1200px) {
-    .page {
-      position: initial;
+  @media screen and (max-width: 1024px) {
+    .tags{
+      opacity: 0;
     }
-  
+    .top-tags{
+      opacity: 0;
+    }
     .container {
-      position: initial;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
       height: auto;
-      min-height: auto;
+      min-height: unset;
+      padding: 20px;
       
       &.home-page,
       &.contact-page,
-      &.about-page {
-        .text-zone {
-          position: initial;
-          transform: none;
-          width: 100%;
-          display: block;
-          padding: 20px;
-          box-sizing: border-box;
+      &.about-page,
+      &.portfolio-page {
+
+        h1 {
+          font-size: 53px;
+          font-family: 'Coolvetica';
+          color: #ffd700;
+          font-weight: 400;
+          margin-top: 0;
+          position: relative;
+          margin-bottom: 40px;
+          left: -10px;
+    
+          &:before {
+            opacity: 0;
           }
-          .image-container{
-            position:fixed;
-            top: 100%;
-            left: 40%;
-            max-width: 50%;
-            max-height: 50%;
-            overflow: visible;
+    
+          &:after {
+            opacity: 0;
           }
-          .cube-container {
-            position: initial;
-            width: 100%;
-            height: 0%;
-            overflow: visible;
         }
-      } 
+  
+        h2 {
+          font-size: 30px;
+          font-family: 'Coolvetica';
+          color: #fefefe;
+          font-weight: 400;
+          margin-top: 0;
+          position: relative;
+          margin-bottom: 40px;
+          left: -10px;
+    
+          &:before {
+            opacity: 0;
+          }
+    
+          &:after {
+            opacity: 0;
+          }
+        }
+        .text-zone {
+          width: 90%;
+          position: relative;
+          left: 0;
+          top: auto;
+          transform: none;
+          text-align: center;
+          padding: 10px;
+        }
+        .image-container{
+          width: 100%;
+          height: auto;
+          margin: 0;
+          position: relative;
+          z-index: 1;
+          overflow: visible;
+        }
+      }
+  
+      &.portfolio-page {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+  
+        h1.page-title {
+          margin-left: 20px;
+          margin-top: 20px;
+        }
+  
+        .image-box {
+          width: 100%;
+          max-width: 300px;
+          height: auto;
+          margin: 20px auto 0;
+          display: block;
+          position: relative;
+          z-index: 1;
+        }
+      }
     }
   }
