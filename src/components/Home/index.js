@@ -21,11 +21,7 @@ const Home = () => {
                 </h2>
             </div>
             <div className="image-container">
-<<<<<<< HEAD
-                <img src={ProfilePicPort}/>
-=======
                 <img src={ProfilePicPort} alt="profile-pic-home"/>
->>>>>>> 7f3c185 (updated mobile portability)
             </div>
         </div>
         <Loader type='pacman'/>
